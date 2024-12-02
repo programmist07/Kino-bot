@@ -3,8 +3,8 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboard
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 import requests
 
-TOKEN = "7390008228:AAHO8FY0ZnDUDZaiF9FUcaCMNtBVuPLUyL4"
-channel_link = "@hikvik"
+TOKEN = "Token here"
+channel_link = "link"
 users_file = "users.json"
 
 async def load_users():
